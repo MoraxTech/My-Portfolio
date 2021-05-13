@@ -1,0 +1,118 @@
+* {
+  /*box-sizing: border-box;*/
+  margin: 0;
+  padding: 0;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #1e272e;
+  background-attachment: fixed;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+/* CONTAINER EDU */
+.container-edu {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NAVIGATION */
+.nav-main-edu .nav-menu-edu img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.nav-main-edu .nav-menu-edu li {
+  display: inline-block;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.nav-main-edu ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* BANNER EDU */
+.banner-edu {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.banner-edu .banner-edu-h2 {
+  font-size: 40px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.banner-edu .banner-edu-p {
+  font-size: 25px;
+  padding: 0 25px;
+}
+
+.banner-edu ul .hy-cite-edu {
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 0 50px;
+  text-align: justify;
+}
+
+.banner-edu ul .hy-cite-edu-p {
+  font-size: 20px;
+  padding: 0 50px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* SOCIAL */
+.social-edu {
+  /*background-color: rgba(90, 90, 90, 1);*/
+  margin-top: 150px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.social-edu p {
+  /* Esto acomoda el parrafo como titulo centrado */
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.links-edu {
+  /* Centra los iconos */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links-edu a {
+  margin: 0 10px;
+}
+
+.links-edu a i {
+  font-size: 2rem;
+}
