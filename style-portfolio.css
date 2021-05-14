@@ -261,3 +261,4 @@ hr {
   .container-port {
     grid-template-columns: repeat(1, 1fr);
   }
+  /* Set the navbar to fixed position */
